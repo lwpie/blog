@@ -1,0 +1,57 @@
+baseURL = "https://pwe.cat/"
+languageCode = "zh-cn"
+title = "派猫窝 Pwe Cat"
+theme = "yinyang"
+DefaultContentLanguage = "log"
+
+[permalinks]
+  posts = "/:filename"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "bw"
+    tabWidth = 2
+
+[author]
+  name = "Pwe"
+  homepage = "https://yipe.ng"
+
+[languages]
+  [languages.diary]
+    contentDir = "content/diary"
+    languageName = "Diary"
+    weight = 1
+  [languages.log]
+    contentDir = "content/log"
+    languageName = "Log"
+    weight = 2
+  [languages.meta]
+    contentDir = "content/meta"
+    languageName = "Meta"
+    weight = 3
+
+[params]
+mainSections = ["posts"]
+headTitle = "> less pwe"
+extraHead = "<link rel=\"stylesheet\" href=\"//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/styles/default.min.css\"><script src=\"//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js\"></script><script>hljs.highlightAll();</script><script src=\"https://polyfill.io/v3/polyfill.min.js?features=es6\"></script><script id=\"MathJax-script\" async src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script><script>window.MathJax = {tex: {inlineMath: [['#$', '#$']]}};</script>"
+
+[[params.socials]]
+name = "About Me"
+link = "https://yipe.ng"
+
+[[params.socials]]
+name = "Friends"
+link = "/meta/friends"
+
+[[params.socials]]
+name = "GitHub"
+link = "https://github.com/lwpie"
+# postHeaderContent = ""
+# postFooterContent = "<br/><br/><p>Subscribe to：<a target='_blank' href='https://mailchi.mp/a1a0d59e7a19/joway'>Joway's Blog</a></p>"
+# extraCSSFiles = ["css/foo.css", "css/bar.css"]
+extraCSSFiles = []
