@@ -1,7 +1,7 @@
 ---
 title: "Català & Domini .cat"
 date: 2022-01-05
-categories: ['Meta']
+categories: ['转载']
 draft: false
 ---
 
