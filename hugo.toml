@@ -1,0 +1,8 @@
+baseURL = 'https://vlpi.org/'
+languageCode = 'zh-CN'
+title = 'Very Large Pi'
+theme = 'nostyleplease'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
